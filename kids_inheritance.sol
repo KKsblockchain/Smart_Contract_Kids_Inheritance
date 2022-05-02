@@ -8,7 +8,7 @@ Only the specific kid can withdraw their own money.
 
 pragma solidity ^0.8.7;
 
-contract CryptoKids {
+contract KidsInheritance {
     //owner Dad
 
     address owner;
