@@ -1,5 +1,11 @@
 //SPDX-License_identifier: UNLICENSED
 
+/* This smart contract allows a parent to set up savings for their kids. 
+Upon a certain maturity date, the kids can withdraw their money.
+Only the designated parent (owner) can deposit money for the kids.
+Only the specific kid can withdraw their own money.
+*/
+
 pragma solidity ^0.8.7;
 
 contract CryptoKids {
